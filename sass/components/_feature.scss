@@ -1,0 +1,41 @@
+.box__wrapper {
+  gap: 30px;
+  justify-content: center;
+  margin: auto;
+}
+
+.lorem {
+  &__item {
+  max-width: 270px;}
+  &__svg {
+      width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  }
+}
+.lorem {
+  &__header {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  color: $color-black;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+ &__description {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  color: $color-grey;
+  margin: 0;
+}
+}
+
+.lorem__svg-icon {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+}
