@@ -2,21 +2,29 @@
   gap: 30px;
   justify-content: center;
   margin: auto;
-}
 
-.lorem {
-  &__item {
-    max-width: 270px;
-  }
-  &__svg {
+    &__feature {
+      max-width: 270px;}
+  
+    }
+
+.box__feature {
+
+      &__svg {
     width: 270px;
     height: 120px;
     background-color: #f5f4fa;
     border-radius: 4px;
     display: flex;
   }
+   &__svg--icon {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+   }
 }
-.lorem {
+
+.box__feature {
   &__header {
     font-family: inherit;
     font-size: 14px;
@@ -35,8 +43,3 @@
   }
 }
 
-.box__feature__svg--icon {
-  margin: auto;
-  width: 70px;
-  height: 70px;
-}
