@@ -1,4 +1,4 @@
-.header__wrapper {
+.header {
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -7,16 +7,15 @@
   position: relative;
 }
 
-
 .nav {
   display: flex;
   align-items: center;
   &__list {
-  gap: 46px;
-}
- &__studio {
-  color: $color-black;
-}
+    gap: 46px;
+  }
+  &__studio {
+    color: $color-black;
+  }
 }
 
 .nav__logo {
@@ -27,7 +26,6 @@
   font-size: 26px;
   margin-right: 93px;
 }
-
 
 .list,
 .box__wrapper {
@@ -52,7 +50,7 @@
 .list .list-item:focus {
   color: $color-blue;
 }
-.email__list-item {
+.email__item {
   text-decoration: none;
   color: $color-grey;
   transition-property: color;
@@ -63,8 +61,8 @@
   }
 }
 
-.email__list-item:hover .email__svg,
-.email__list-item:hover .email__svg-tel {
+.email__item:hover .email__svg,
+.email__item:hover .email__svg-tel {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -74,7 +72,7 @@
 .header-border {
   border-bottom: 1px solid #ececec;
 }
-.email__list {
+.email {
   gap: 30px;
 }
 .email__svg,
