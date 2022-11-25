@@ -1,4 +1,4 @@
-.icon-media__wrapper {
+.social-media__wrapper {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -11,13 +11,13 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
- &:hover {
-  background-color: $color-blue;
-  cursor: pointer;
-}
+  &:hover {
+    background-color: $color-blue;
+    cursor: pointer;
+  }
 }
 
-.icon-media__wrapper:hover .icon-media {
+.social-media__wrapper:hover .social-media__icon {
   fill: $color-white;
 }
 
@@ -32,7 +32,7 @@
   display: flex;
   margin: auto;
 }
-.icon-media {
+.social-media__icon {
   fill: $logo;
   width: 20px;
   height: 20px;
